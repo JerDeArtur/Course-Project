@@ -8,14 +8,8 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 export class HeaderComponent implements OnInit {
   collapsed = true;
   constructor() { }
-
-  @Output() onNav = new EventEmitter<string>();
-
   ngOnInit(): void {
   }
 
-  handleNav(val:string){
-    this.onNav.emit(val);
-  }
 
 }

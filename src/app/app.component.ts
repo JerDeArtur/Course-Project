@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  page: string = 'recipes';
-
-  navigate(navTo:string){
-    this.page = navTo;
-  }
-
 }
